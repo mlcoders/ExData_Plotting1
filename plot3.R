@@ -16,6 +16,9 @@ for(i in 1:3){
         legends[i]=paste("Sub_metering_",i,sep = "")
         lines(hpc$Date,hpc[,legends[i]],type="l",col=cols[i])
 }
-legend("topright",col = cols,legend = legends)
+legend("topright",
+       col = cols,
+       legend = legends,
+       lty = 1)
 
 dev.off()
