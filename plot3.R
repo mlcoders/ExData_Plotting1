@@ -8,7 +8,7 @@ png(filename = "plot3.png",height = 480,width=480)
 plot(hpc$Date,hpc$Global_active_power, 
      xlab = "",
      ylab ="Energy sub metering", 
-     ylim = c(-2,40),
+     ylim = c(-1,37),
      type = "n")
 cols=c("black","red","blue")
 legends<-c()
